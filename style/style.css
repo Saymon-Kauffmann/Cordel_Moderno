@@ -55,8 +55,11 @@ section {
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fontSri);
-    font-size: 3.5vw;
-    
+    font-size: 3.5vw; 
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 .nrml {
@@ -67,13 +70,25 @@ section {
 .img {
     background-color: #2e2c2c;
     color: white;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.534);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .img > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgba(0, 0, 0, 0.534);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img1 {
+    background-image: url('../images/background001.jpg');
+    background-position: right center;
+}
+
+#img2 {
+    background-image: url('../images/background002.jpg');
 }
 
 footer {
