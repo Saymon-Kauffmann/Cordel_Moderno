@@ -1,5 +1,51 @@
 @charset "UTF-8";
 
-body {
-    background-color: pink;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.781));
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 40px;
+    font-variant:small-caps;
+}
+
+header > p {
+    padding-bottom: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+.nrml {
+
+}
+
+.img {
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
