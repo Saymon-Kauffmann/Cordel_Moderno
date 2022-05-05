@@ -35,12 +35,28 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-.nrml {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    
+}
 
+.nrml {
+    background-color: white;
+    color: black;
 }
 
 .img {
+    background-color: #2e2c2c;
+    color: white;
 
+}
+
+.img > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.13);
 }
 
 footer {
